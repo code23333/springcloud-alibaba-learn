@@ -1,0 +1,5 @@
+# 项目排除路径
+/service-a/target/
+/service-b/target/
+/service-common/target/
+.idea
