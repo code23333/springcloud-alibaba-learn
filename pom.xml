@@ -9,6 +9,8 @@
         <module>service-a</module>
         <module>service-b</module>
         <module>service-common</module>
+        <module>gateway</module>
+        <module>service-verification</module>
     </modules>
     <groupId>wrh.self</groupId>
     <artifactId>springcloud-alibaba-learn</artifactId>

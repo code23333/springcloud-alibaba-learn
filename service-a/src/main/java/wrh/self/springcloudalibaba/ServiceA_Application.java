@@ -2,11 +2,12 @@ package wrh.self.springcloudalibaba;
 import com.alibaba.nacos.api.exception.NacosException;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.context.ConfigurableApplicationContext;
 
 
 
-@SpringBootApplication
+@SpringBootApplication(exclude = DataSourceAutoConfiguration.class)
 //@NacosPropertySource(dataId = "example", autoRefreshed = true)
 public class ServiceA_Application {
 

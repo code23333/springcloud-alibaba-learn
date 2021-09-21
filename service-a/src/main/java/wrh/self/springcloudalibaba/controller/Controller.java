@@ -25,7 +25,7 @@ public class Controller {
 
 
     @RequestMapping("/")
-    public Object method0(@RequestParam String name, @RequestHeader String AUTHOR){
+    public Object method0(@RequestParam String name,/* @RequestHeader*/ String AUTHOR){
         Map<String,Object> rs = new HashMap<>();
         rs.put("name",name);
         rs.put("AUTHOR",AUTHOR);
@@ -33,6 +33,10 @@ public class Controller {
     }
 
 
+    @RequestMapping("/server_a")
+    public Object method1(){
+        return "hell word";
+    }
 
 
 

@@ -1,5 +1,7 @@
 # 项目排除路径
+**/target/**
 /service-a/target/
 /service-b/target/
 /service-common/target/
 .idea
+/service-verification/target/
